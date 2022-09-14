@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 400;
+}
+
+.body {
+  height: 100vh;
+  color: white;
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/water-under-blue-and-red-sky-y1-1366x768.jpg');
+  background-position: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px;
+  width: 350px;
+  /* margin-top: 150px; */
+  height: fit-content;
+  /* background-color: white;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 10px; */
+  backdrop-filter: blur(7px) saturate(180%);
+  -webkit-backdrop-filter: blur(7px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.clear-btn {
+  align-self: center;
+  width: 95%;
+  margin-top: 10px;
+  padding: 7px 0px;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(17, 25, 40, 0.75);
+  
+}
+.title{
+  margin-bottom: 30px;
+}
